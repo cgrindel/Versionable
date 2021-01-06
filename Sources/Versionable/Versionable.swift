@@ -17,8 +17,6 @@ public protocol Versionable: Codable {
 
     /// Persisted Version of this type
     var version: Version { get }
-
-    static var mock: Self { get }
 }
 
 public extension Versionable {
